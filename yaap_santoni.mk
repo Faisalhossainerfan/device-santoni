@@ -2,9 +2,6 @@
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-# YaapOS Stuff
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
