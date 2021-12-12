@@ -2,10 +2,6 @@
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
 # YaapOS Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
