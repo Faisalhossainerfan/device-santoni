@@ -1,8 +1,8 @@
-# YaapOS
+# HavocOS
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/yaap_santoni.mk
+    $(LOCAL_DIR)/havoc_santoni.mk
 
 COMMON_LUNCH_CHOICES += \
-    yaap_santoni-userdebug \
-    yaap_santoni-user \
-    yaap_santoni-eng
+    havoc_santoni-userdebug \
+    havoc_santoni-user \
+    havoc_santoni-eng
