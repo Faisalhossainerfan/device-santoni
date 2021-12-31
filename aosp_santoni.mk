@@ -1,18 +1,16 @@
 # Inherit makefiles
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Product spec
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-HAVOC_BUILD_TYPE := UnOfficial
-HAVOC_MAINTAINER := Faisalhossainerfan
 TARGET_GAPPS_ARCH := arm64
 
 # ROM spesific makefile name
-PRODUCT_NAME := havoc_santoni
+PRODUCT_NAME := aosp_santoni
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
